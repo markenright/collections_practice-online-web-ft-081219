@@ -8,5 +8,5 @@ end
 
 
 def sort_array_desc(array)
-  array.sort(-1)
+  array.sort(reverse)
 end
