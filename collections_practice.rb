@@ -59,4 +59,4 @@ def add_s(array)
 end
 
 
-add_s(["ok", "yes", "maybe"])
+puts add_s(["ok", "yes", "maybe"])
