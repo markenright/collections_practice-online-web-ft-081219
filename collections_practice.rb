@@ -50,7 +50,9 @@ def add_s(array)
   new_array = []
   array.each_with_index do |word, index|
     
-    if index != 1
+    if index == 1
+      new_array << word
+    else
       new_array << word + "s"
     end
     
