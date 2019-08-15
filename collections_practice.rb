@@ -48,5 +48,9 @@ end
 
 def add_s(array)
   array.collect_with_index do |word, index|
-    if 
+    puts word, index
   end
+end
+
+
+add_s(["ok", "yes", "maybe"])
