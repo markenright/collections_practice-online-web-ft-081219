@@ -31,3 +31,6 @@ def kesha_maker(array)
     word[2] = "$"
   end
 end
+
+
+puts kesha_maker(["blake", "ashley", "scott"])
